@@ -1,7 +1,12 @@
 //
 //  main.cpp
 //  Tax Table Lookup Lab
-//
+//  CIS-55 C/C++ Programming
+
+//  Inputs: The user is prompted to enter their tax status(1-5). The user is than asked a series of questions to help the system   determine the users exemptions, deductions, and total income.
+
+//  Outputs: Once the user has inputted all of the numbers needed into the program, the program will return the amount of federal tax due for the user
+
 //  Created by Ryan Munguia on 7/10/17.
 //  Copyright © 2017 Ryan Munguia. All rights reserved.
 //
@@ -106,6 +111,7 @@ int inputStatus()
             cout << "Illegal value, try again" << endl;
     } while (status < 0 || status > 5);
     return status;
+
 }
 
 ////// input exemptions ////
@@ -127,11 +133,25 @@ double inputIncome()
 }
 
 ////// input deductions ////
+//  routine i need to modify to come up with itemized decuction or standard deductions
+//  use the table to return a value form one of the standard decutions based on the tax paers status.
 double inputDeductions(int s)
 {
+    int sd;
     double deductions;
-    cout << "Enter the amount of your Itemized Deductions: ";
-    cin  >> deductions;
+    int standDeductions[] = {0,6300,12600,6300,9250,12600};
+    cout << "Select 1 = Standard Deductions or 2 = Itemized Deductions: " << endl;
+    cin >> sd;
+    if(sd == 2)
+    {
+        cout << "Enter the amount of your Itemized Deductions: ";
+        cin  >> deductions;
+        return deductions;
+    }else{
+        deductions = standDeductions[s];
+        cout << "Your standard deductions is: " << standDeductions[s] << endl;
+        
+    }
     return deductions;
 }
 
