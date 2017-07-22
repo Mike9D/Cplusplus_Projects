@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "061F781B21415E19CEE2263375ECE1352A5C15E1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9B35DE6DA45F1003A24AE6C1F055F31ADB6BB4DB" : 9223372036854775807,
+    "061F781B21415E19CEE2263375ECE1352A5C15E1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF65285E-2A7F-4B35-B324-51C85F8C1A01",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9B35DE6DA45F1003A24AE6C1F055F31ADB6BB4DB" : "",
+    "061F781B21415E19CEE2263375ECE1352A5C15E1" : "C++_Projects\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RationalTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RationalTest\/RationalTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ry-Mu\/Cplusplus_Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "061F781B21415E19CEE2263375ECE1352A5C15E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ry-Mu\/C-_Summer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9B35DE6DA45F1003A24AE6C1F055F31ADB6BB4DB"
+    }
+  ]
+}
